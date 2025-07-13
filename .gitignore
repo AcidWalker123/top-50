@@ -1,0 +1,19 @@
+# Ignore node_modules and build/dist in frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/*.log
+
+# Ignore vendor, cache, logs in backend
+/backend/vendor/
+/backend/var/
+/backend/.env.local
+/backend/*.log
+
+# Ignore IDE/editor files project-wide
+.vscode/
+.idea/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db

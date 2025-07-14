@@ -15,8 +15,6 @@ services:
     build:
       context: ./backend
     container_name: symfony_backend
-    volumes:
-      - ./backend:/var/www
     depends_on:
       - db
       - redis

@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+echo "Installing Composer dependencies..."
+composer install --no-interaction
 
 echo "⏳ Waiting for database to be ready..."
 

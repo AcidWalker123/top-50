@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service\Dtos;
+namespace App\Currency\Application\Service\Dtos;
 
 class CurrencyDto implements \JsonSerializable
 {

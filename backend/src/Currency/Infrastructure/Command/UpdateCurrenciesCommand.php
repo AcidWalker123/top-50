@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command;
+namespace App\Currency\Infrastructure\Command;
 
 use App\Service\CurrencyService;
 use Symfony\Component\Console\Attribute\AsCommand;

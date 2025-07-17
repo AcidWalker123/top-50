@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Entity;
+namespace App\Currency\Domain\Entity;
 
-use App\Repository\CurrencyRepository;
+use App\Currency\Infrastructure\Persistence\Doctrine\Repository\CurrencyRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 

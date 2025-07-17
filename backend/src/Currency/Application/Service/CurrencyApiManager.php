@@ -1,7 +1,7 @@
 <?php
-namespace App\Service;
+namespace App\Currency\Application\Service;
 
-use App\Service\Abs\CurrencyApiClientInterface;
+use App\Currency\Application\Service\Abs\CurrencyApiClientInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 

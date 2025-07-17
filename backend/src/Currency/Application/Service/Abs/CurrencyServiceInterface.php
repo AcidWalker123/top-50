@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service\Abs;
+namespace App\Currency\Application\Service\Abs;
 interface CurrencyServiceInterface
 {
     public function getAllCurrencies(): array;

@@ -24,3 +24,9 @@ services:
     # please note that last definitions always *replace* previous ones
     app.currency_cache:
         alias: app.cache.redis
+
+    App\Infrastructure\Persistence\Doctrine\:
+        resource: '../src/Currency/Infrastructure/Persistence/Doctrine/*'
+        autowire: true
+        autoconfigure: true
+        public: false

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Service\Mappers;
+namespace App\Currency\Application\Service\Mappers;
 
-use App\Entity\Currency;
-use App\Service\Dtos\CurrencyDto;
+use App\Currency\Domain\Entity\Currency;
+use App\Currency\Application\Service\Dtos\CurrencyDto;
 
 class CurrencyMapper
 {

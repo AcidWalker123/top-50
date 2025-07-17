@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repository;
+namespace App\Currency\Infrastructure\Persistence\Doctrine\Repository;
 
-use App\Entity\Currency;
+use App\Currency\Domain\Entity\Currency;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Service;
+namespace App\currency\Application\Service;
 
-use App\Repository\CurrencyRepository;
-use App\Service\Abs\CurrencyServiceInterface;
+use App\Currency\Domain\Entity\Currency;
+use App\Currency\Infrastructure\Persistence\Doctrine\Repository\CurrencyRepository;
+use App\Currency\Application\Service\Abs\CurrencyServiceInterface;
 use Doctrine\ORM\EntityManagerInterface;
-use App\Entity\Currency;
-use App\Service\Mappers\CurrencyMapper;
+use App\Currency\Application\Service\CurrencyApiManager;
+use App\Currency\Application\Service\Mappers\CurrencyMapper;
 use Psr\Cache\CacheItemPoolInterface;
 
 class CurrencyService implements CurrencyServiceInterface

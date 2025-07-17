@@ -20,7 +20,7 @@ A full-stack web application for tracking the top 50 cryptocurrencies. Built wit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/top-50.git
+git clone https://github.com/AcidWalker123/top-50.git
 cd top-50
 ```
 

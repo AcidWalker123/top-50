@@ -1,5 +1,5 @@
 controllers:
     resource:
-        path: ../src/Controller/
-        namespace: App\Controller
+        path: ../src/Currency/Web/Controller/
+        namespace: App\Currency\Web\Controller
     type: attribute

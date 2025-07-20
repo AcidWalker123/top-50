@@ -1,6 +1,6 @@
 <?php
 
-namespace App\currency\Application\Service;
+namespace App\Currency\Application\Service;
 
 use App\Currency\Domain\Entity\Currency;
 use App\Currency\Infrastructure\Persistence\Doctrine\Repository\CurrencyRepository;

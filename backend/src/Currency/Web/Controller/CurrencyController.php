@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace App\Currency\Web\Controller;
 
-use App\Service\Abs\CurrencyServiceInterface;
+use App\Currency\Application\Service\Abs\CurrencyServiceInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;

@@ -55,3 +55,9 @@ docker-compose up --build -d
 ```
 
 ### 8. After succesful setup visit http://localhost:8080
+
+### 9. To stop the Application
+```bash
+docker-compose down
+```
+
